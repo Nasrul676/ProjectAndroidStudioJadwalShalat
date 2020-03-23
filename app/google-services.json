@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "365903516761",
+    "firebase_url": "https://aplikasi-jadwal-shalat.firebaseio.com",
+    "project_id": "aplikasi-jadwal-shalat",
+    "storage_bucket": "aplikasi-jadwal-shalat.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:365903516761:android:19fed017fbccab2fb90d48",
+        "android_client_info": {
+          "package_name": "info.blogbasbas.carimasjid"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "365903516761-8jn9gjgbto569arts2r4nr12bbtb3st0.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "info.blogbasbas.carimasjid",
+            "certificate_hash": "3c0f179d9ec789945f65daae09d8b250ffc4f235"
+          }
+        },
+        {
+          "client_id": "365903516761-di4i1ssc6dil2fis50p6bbhq7o61gvh1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDGuWWZ9DEGINFR-kjo1D6DP_NFpGxWPuY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "365903516761-di4i1ssc6dil2fis50p6bbhq7o61gvh1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

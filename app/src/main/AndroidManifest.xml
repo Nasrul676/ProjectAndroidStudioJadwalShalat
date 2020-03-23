@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="info.blogbasbas.jadwalshalat">
+
+    <uses-feature android:name="android.hardware.location.gps" />
+    <uses-feature android:name="android.hardware.sensor.accelerometer" />
+    <uses-feature android:name="android.hardware.sensor.compass" />
+    <uses-feature android:name="android.hardware.location" />
+
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:name="aplikasi.jadwal.shalat.nasrul.App"
+        android:allowBackup="true"
+        android:icon="@drawable/iconapk"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name="aplikasi.jadwal.shalat.nasrul.activity.doa_harian" android:screenOrientation="portrait"></activity>
+        <activity android:name="aplikasi.jadwal.shalat.nasrul.activity.Content_Home_Screen" android:screenOrientation="portrait" />
+        <activity android:name="aplikasi.jadwal.shalat.nasrul.arah_kiblat.arah_kiblat" android:screenOrientation="portrait" />
+        <activity android:name="aplikasi.jadwal.shalat.nasrul.activity.berita1" android:screenOrientation="portrait" />
+        <activity android:name="aplikasi.jadwal.shalat.nasrul.activity.inspirasi" android:screenOrientation="portrait" />
+        <activity android:name="aplikasi.jadwal.shalat.nasrul.activity.tata_cara_sholat_activity" android:screenOrientation="portrait" />
+        <!--
+             The API key for Google Maps-based APIs is defined as a string resource.
+             (See the file "res/values/google_maps_api.xml").
+             Note that the API key is linked to the encryption key used to sign the APK.
+             You need a different API key for each encryption key, including the release key that is used to
+             sign the APK for publishing.
+             You can define the keys for the debug and release targets in src/debug/ and src/release/.
+        -->
+        <activity
+            android:name="aplikasi.jadwal.shalat.nasrul.activity.HomeActivity"
+            android:configChanges="orientation|screenSize"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="aplikasi.jadwal.shalat.nasrul.activity.splascreen.SplashScreenActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.NoActionBar"
+            tools:ignore="InnerclassSeparator">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="aplikasi.jadwal.shalat.nasrul.activity.listsurah.QuranActivity"
+            android:label="@string/listsurah"
+            android:screenOrientation="portrait"
+            tools:ignore="InnerclassSeparator" />
+        <activity
+            android:name="aplikasi.jadwal.shalat.nasrul.activity.listayat.ListAyatActivity"
+            android:label="@string/listayat"
+            android:screenOrientation="portrait"
+            tools:ignore="InnerclassSeparator" />
+        <activity
+            android:name="aplikasi.jadwal.shalat.nasrul.activity.notes.ActivityAsmaulHusna"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name="aplikasi.jadwal.shalat.nasrul.activity.notes.ActivityAsmaulHusnaDetail"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+    </application>
+
+</manifest>
